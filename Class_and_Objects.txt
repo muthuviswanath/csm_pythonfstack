@@ -1,0 +1,18 @@
+Class:
+
+    It is a blueprint of an Object
+    Without a class we cannot create objects
+    Class is a logical entity which has no physical presence
+
+Object:
+
+    It is a real world physical entity that has mass, occupies space and can be
+    seen, touched or experienced.
+    It has definite states and behaviors
+    States defines the Object and is represented as variables
+    Behaviors defines the action performed and is represented as methods
+    Using a single class, we can create N number of objects
+    All those objects looks similar
+    If one object is modified, it will not affect other objects or the blueprint
+    An object can have multiple references
+    
