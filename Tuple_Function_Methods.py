@@ -1,0 +1,21 @@
+#Functions:
+# len(tuple_variable)
+# max(tuple_variable)
+# min(tuple_variable)
+# sum(tuple_variable)
+# sorted(tuple_variable)
+# tuple(tuple_variable)
+# any(tuple_variable)
+# all(tuple_variable)
+
+# Methods:
+your_tuple = (12,23,54,56,56,45)
+# .index(object)
+print(your_tuple.index(54))
+# .count(object)
+print(your_tuple.count(54))
+print(your_tuple.count(56))
+print(your_tuple[::-1])
+my_sorted_tuple = tuple(sorted(your_tuple))
+your_tuple.sort()
+print(my_sorted_tuple)
