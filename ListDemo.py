@@ -1,29 +1,30 @@
-#creating an empty list:
-# Syntax: listname = []
-colors= []
-print(type(colors))
+# List
 
+# It is a collection of heterogeneous type of data.
+# It is index based
+# It allows random access
+# It maintains insertion order
+# It allows duplicates
+# It is mutatable
+
+# To create an empty list
+my_num = []
+print(len(my_num))
+# To create list with values
+colors = ["Red","Blue","Green"]
+print(len(colors))
+
+# To add elements to the existing list
+my_num.append(34)
+
+colors.append("Black")
+
+print(my_num)
 print(colors)
 
-colors.append('Red')
-colors.append('Green')
-colors.append('Blue')
-
+# Remove Items from the list
+colors.remove("Red")
 print(colors)
 
-for ele in colors:
-    print(ele,end=" ")
-
-# print as if it is getting printed while printing the list using the listname itself
-# []
-print()
-print('[',end="")
-for i in range(len(colors)):
-    print(colors[i],end="")
-    if i == len(colors)-1:
-        print("]")
-    else:
-        print(",",end=" ")
-
-rainbow_colors = ["Violet","Indigo","Blue","Green","Yellow","Orange","Red"]
-print(rainbow_colors)
+colors.insert(1,"Crimson Red")
+print(colors)
